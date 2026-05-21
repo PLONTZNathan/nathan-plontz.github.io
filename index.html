@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nathan Plontz — Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: #f0f0f0;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      text-align: center;
+      padding: 2rem;
+    }
+
+    .name {
+      font-size: 2.5rem;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+      margin-bottom: 0.5rem;
+    }
+
+    .title {
+      font-size: 1rem;
+      color: #888;
+      margin-bottom: 2.5rem;
+      letter-spacing: 0.5px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 999px;
+      padding: 0.5rem 1.25rem;
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-bottom: 2.5rem;
+    }
+
+    .badge span {
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: #f0a500;
+      border-radius: 50%;
+      margin-right: 8px;
+      vertical-align: middle;
+      animation: pulse 2s infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.3; }
+    }
+
+    .links {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+    }
+
+    .links a {
+      color: #888;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: color 0.2s;
+    }
+
+    .links a:hover { color: #f0f0f0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <p class="name">Nathan Plontz</p>
+    <p class="title">Ingénieur informatique · IA & Data</p>
+    <div class="badge">
+      <span></span>Portfolio en cours de construction
+    </div>
+    <div class="links">
+      <a href="https://github.com/ton-pseudo" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/ton-profil" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</body>
+</html>
